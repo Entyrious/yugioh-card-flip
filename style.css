@@ -1,37 +1,15 @@
-#card1{
+.cards{
     border: 1px solid black;
     min-width: 300px; 
     min-height: 439px;
-    background-image: url(./back_card_yugioh.jpg);
     background-size: contain;
 }
-#card2{
-    border: 1px solid black;
-    min-width: 300px; 
-    min-height: 439px;
-    background-image: url(./back_card_yugioh.jpg);
-    background-size: contain;
+.front{
+    background-image: url(./RO_front.png);
+   
 }
-#card3{
-    border: 1px solid black;
-    min-width: 300px; 
-    min-height: 439px;
+.back{    
     background-image: url(./back_card_yugioh.jpg);
-    background-size: contain;
-}
-#card4{
-    border: 1px solid black;
-    min-width: 300px; 
-    min-height: 439px;
-    background-image: url(./back_card_yugioh.jpg);
-    background-size: contain;
-}
-#card5{
-    border: 1px solid black;
-    min-width: 300px; 
-    min-height: 439px;
-    background-image: url(./back_card_yugioh.jpg);
-    background-size: contain;
 }
 #monsterzone{
     display:flex;
