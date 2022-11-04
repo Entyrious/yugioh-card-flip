@@ -10,7 +10,7 @@ for (let i = 0; i < 3; i++) {
     
     var atkv=document.createElement("h2")
     atkv.textContent=cards[randomnum].atk
-    atkv.setAttribute("class","atkv "+cards[randomnum].element)
+    atkv.setAttribute("class","atkv "+cards[randomnum].element.name)
     newCard.append(atkv)
 
     m1_zone.append(newCard)
@@ -25,7 +25,7 @@ for (let i = 0; i < 3; i++) {
     
     var atkv=document.createElement("h2")
     atkv.textContent=cards[randomnum].atk
-    atkv.setAttribute("class","atkv "+cards[randomnum].element)
+    atkv.setAttribute("class","atkv "+cards[randomnum].element.name)
     newCard.append(atkv)
 
     m2_zone.append(newCard)
