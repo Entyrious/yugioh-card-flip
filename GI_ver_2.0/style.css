@@ -1,24 +1,36 @@
 .cards{
     border: 1px solid black;
-    min-width: 247px; 
-    min-height: 439px;
+    min-width: 120px; 
+    min-height: 218px;
     background-size: contain !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
 }
 
-.back{    
+/* .back{    
     background-image: url(./imgs/GIback.png) !important;
+} */
+.on-field{    
+    border: 1px solid black;
+    min-width: 197px; 
+    min-height: 339px;
+    background-size: contain ;
+    background-position: center center ;
+    background-repeat: no-repeat ;
 }
-/* #monsterzone1{
-    display:flex;
-    flex-direction: row;
 
+#monsterzone1{
+    align-items:flex-start;
+    /* padding-bottom: 100px; */
+    /* border: 1px solid black; */
+    height: 350px;
 }
 #monsterzone2{
-    display:flex;
-    flex-direction: row;
-} */
+    align-items:flex-end;
+    /* padding-top: 100px; */
+    /* border: 1px solid black; */
+    height: 350px;
+}
 
 .cardzone{
     display:flex;
