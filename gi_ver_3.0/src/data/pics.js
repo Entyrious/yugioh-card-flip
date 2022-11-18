@@ -7,4 +7,9 @@ import keqing from "../imgs/liy/keqing.jpg"
 import xingqiu from "../imgs/liy/xingqiu.jpg"
 import yun_jin from "../imgs/liy/yun_jin.jpg"
 
-export {amber, kaeya, jean, diluc, qiqi, keqing, xingqiu, yun_jin}
+import natk from "../imgs/natk.png"
+import catk from "../imgs/catk.jpg"
+import eskill from "../imgs/Eskill.jpg"
+import giback from "../imgs/GIback.png"
+
+export {amber, kaeya, jean, diluc, qiqi, keqing, xingqiu, yun_jin, natk, catk, eskill, giback}

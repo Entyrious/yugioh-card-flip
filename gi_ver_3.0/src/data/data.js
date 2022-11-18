@@ -2,7 +2,7 @@ import Card from "./models/Card";
 import Character from "./models/Character";
 import Element from "./models/Element";
 import Location from "./models/Location";
-import {amber, kaeya, jean, diluc, qiqi, keqing, xingqiu, yun_jin} from "./pics"
+import {amber, kaeya, jean, diluc, qiqi, keqing, xingqiu, yun_jin, natk, catk, eskill, giback} from "./pics"
 
 var locations=[
     new Location("mondstadt", "venti"),
@@ -27,30 +27,30 @@ var characters=[
     new Character("yun jin", elements[4], locations[1], yun_jin)
 ];
 var cards=[
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("natk","./imgs/natk.png", 50, 10, "normal attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("catk","./imgs/catk.jpg", 80, 20, "charge attack"),
-    new Card("eskill", "./imgs/Eskill.jpg", 100, 40, "elemental skill"),
-    new Card("eskill", "./imgs/Eskill.jpg", 100, 40, "elemental skill"),
-    new Card("eskill", "./imgs/Eskill.jpg", 100, 40, "elemental skill"),
-    new Card("eskill", "./imgs/Eskill.jpg", 100, 40, "elemental skill")
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("natk", natk, 50, 10, "normal attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("catk", catk, 80, 20, "charge attack"),
+    new Card("eskill", eskill, 100, 40, "elemental skill"),
+    new Card("eskill", eskill, 100, 40, "elemental skill"),
+    new Card("eskill", eskill, 100, 40, "elemental skill"),
+    new Card("eskill", eskill, 100, 40, "elemental skill")
 ];
 
 export {cards, characters}
