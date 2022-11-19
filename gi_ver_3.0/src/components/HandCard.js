@@ -12,7 +12,7 @@ function HandCard(props) {
 
 
     return (
-        <div id="handcards2" class="cardzone">
+        <div id="handcards2" class={"cardzone " + props.rotation}>
             {
                 props.cards.map(function(card){
                     return generateCards(card)

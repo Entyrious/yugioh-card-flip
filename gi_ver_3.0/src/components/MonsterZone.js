@@ -1,18 +1,13 @@
 import React from 'react';
+import TeamComp from './TeamComp';
 
 function MonsterZone(props) {
     function generateChara(chara) {
-        return (
-            <div class="cards" style={{
-                background: `url(${chara.img})`
-            }}>
-                <h2>1910</h2>
-            </div>
-        )
+        return ( <TeamComp image={chara.img}/>)
     };
 
     return (
-        <div id="monsterzone1" class="monsterzone">
+        <div id={"monsterzone" + props.num} class={"monsterzone " + props.rotation}>
             {
                 props.characters.map(function(char){
                     return generateChara(char)
